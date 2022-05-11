@@ -49,9 +49,15 @@ label,
 .wedding-head,
 .font-primary { font-family: 'Poppins', sans-serif !important; }
 
-
+/* hiding original font
 .font-secondary {
 	font-family: 'Cookie', cursive !important;
 	font-weight: 400 !important;
+}
+*/
+
+.font-secondary {
+	font-family: 'Old Standard TT', serif;
+	font-weight: 700;
 }
 
