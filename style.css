@@ -546,7 +546,8 @@ span.middot {
 	z-index: 3;
 	position: relative;
 	display: -ms-flexbox;
-	display: flex;
+	display: inline-block;
+	/* display: flex; */
 	width: 100%;
 	min-height: 100%;
 	justify-content: center;
