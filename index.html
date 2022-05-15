@@ -7,24 +7,24 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Cookie|Open+Sans:400,600,700,800,900|Poppins:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900&display=swap" />
+	<link href="https://fonts.googleapis.com/css?family=Cookie|Open+Sans:400,600,700,800,900|Poppins:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
 
-	<link rel="stylesheet" href="/css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
 
 	<!-- restaurant Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="celticfest/css/celticfest.css" type="text/css" />
-	<link rel="stylesheet" href="celticfest/css/fonts.css" type="text/css" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" />
-	<!-- / -->
-
+	<link rel="stylesheet" href="demos/restaurant/restaurant.css" type="text/css" />
+	<link rel="stylesheet" href="demos/restaurant/css/fonts.css" type="text/css" />	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" >
+	
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -52,8 +52,8 @@
 						<!-- Logo
 						============================================= -->
 						<div id="logo" class="col-auto me-lg-0 order-lg-2">
-							<a href="index.html" class="standard-logo"><img src="assets/images/logos/ocf_logo.png" alt="Ohio Celtic Festival Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="assets/images/logos/ofc_logo.png@2x.png" alt="Ohio Celtic Festival Logo"></a>
+							<a href="demo-restaurant.html" class="standard-logo"><img src="demos/restaurant/images/ocf_logo.png" alt="Ohio Celtic Fest Logo"></a>
+							<a href="demo-restaurant.html" class="retina-logo"><img src="demos/restaurant/images/ocf_logo@2x.png" alt="Ohio Celtic Fest Logo"></a>
 						</div><!-- #logo end -->
 
 						<div id="primary-menu-trigger">
@@ -63,21 +63,33 @@
 						<!-- Primary Navigation
 						============================================= -->
 						<nav class="primary-menu col-lg-4 order-lg-1">
-
+							<!-- hiding original menu until updated
 							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="index.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="about-us.html"><div>About</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-restaurant.html"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#demo-restaurant-about-us.html"><div>About</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="demo-restaurant-menu.html"><div>Menu</div></a></li>
+							</ul>
+							-->
+							<ul class="menu-container">
+								<li class="menu-item"><a class="menu-link" href="demo-restaurant.html"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#"><div>About</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#"><div>Entertainment</div></a></li>
 							</ul>
 
 						</nav>
 
 						<nav class="primary-menu col-lg-4 order-lg-3">
-
+							<!-- hiding original menu until updated
 							<ul class="menu-container justify-content-lg-end">
-								<li class="menu-item"><a class="menu-link" href="demo-restaurant-gallery.html"><div>Entertainment</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-restaurant-blog.html"><div>Location</div></a></li>
-								<li class="menu-item"><a class="menu-link color" href="demo-restaurant-reservation.html"><div>By Tickets</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-restaurant-gallery.html"><div>Gallery</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="demo-restaurant-blog.html"><div>Blog</div></a></li>
+								<li class="menu-item"><a class="menu-link color" href="demo-restaurant-reservation.html"><div>Reservation</div></a></li>
+							</ul>
+							-->
+							<ul class="menu-container justify-content-lg-end">
+								<li class="menu-item"><a class="menu-link" href="#"><div>Sponsor</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#"><div>Location</div></a></li>
+								<li class="menu-item"><a class="menu-link color" href="#"><div>Buy Tickets</div></a></li>
 							</ul>
 
 						</nav><!-- #primary-menu end -->
@@ -99,48 +111,38 @@
 							<div class="container dark">
 								<div class="slider-caption">
 									<div>
-										<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn">Taste from Italy.</h2>
-										<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="400">Who Needs a Boyfriend if there Pizza And WiFi are both available.</p>
-										<div class="static-content" style="position: relative; display: flex; justify-content: flex-start; flex-direction: row; margin-top: 30px" data-animate="fadeIn" data-delay="800">
-											<img src="celticfest/images/icons/bowl-white.svg" width="42" height="42" alt="Image">
-											<img class="leftmargin-sm" src="celticfest/images/icons/spoon-white.svg" width="42" height="42" alt="Image">
-											<img class="leftmargin-sm" src="celticfett/images/icons/glass-white.svg" width="42" height="42" alt="Image">
-											<img class="leftmargin-sm" src="celticfest/images/icons/wifi-white.svg" width="42" height="42" alt="Image">
-										</div>
+										<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn">OHIO CELTIC FESTIVAL</h2>
+										<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="400">August 12 - 14, 2022<br>Lake County Fairgrounds</p>
+										<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="700"><em>Bringing a wee bit of Ireland to the heart of Lake County</em></p>
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background-image: url('celticfest/images/slider/1.jpg');"></div>
+							<div class="swiper-slide-bg" style="background-image: url('demos/restaurant/images/slider/1-Cliffs-of-Moher.jpeg');"></div>
 						</div>
 
 						<div class="swiper-slide">
 							<div class="container dark">
 								<div class="slider-caption slider-caption-center" style="margin-top: -30px;">
 									<div>
-										<img data-animate="fadeIn" src="assets/images/logos/ocf_logo.png" alt="Ohio Celtic Festival logo" style="width: 120px; margin-bottom: 10px;">
-										<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn" data-delay="400">Welcome to the Ohio Celtice Festival</h2>
-										<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="800">You'll be surprised to see the Final Results of your<br>Creation &amp; would crave for more.</p>
-										<div class="static-content" style="position: relative; display: flex; justify-content: center; flex-direction: row; margin-top: 30px" data-animate="fadeIn" data-delay="1000">
-											<img src="celticfest/images/icons/bowl-white.svg" width="42" height="42" alt="Image">
-											<img class="leftmargin-sm" src="celticfest/images/icons/spoon-white.svg" width="42" height="42" alt="Image">
-											<img class="leftmargin-sm" src="celticfest/images/icons/glass-white.svg" width="42" height="42" alt="Image">
-										</div>
+										<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn" data-delay="400">The trimphant return of the Elders</h2>
+										<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="800"><strong>The Elders are back!</strong> with a new album and a new tour.<br><em>Don't miss their only Ohio appearance.</em></p>
+										<div class="static-content" style="position: relative; display: flex; justify-content: center; flex-direction: row; margin-top: 30px" data-animate="fadeIn" data-delay="1000"></div>
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background-image: url('assets/images/slider/cliffs-of-moher-ireland_l.jpeg');"></div>
+							<div class="swiper-slide-bg" style="background-image: url('demos/restaurant/images/slider/2-The-Elders.jpg');"></div>
 						</div>
 
 						<div class="swiper-slide">
 							<div class="container dark">
 								<div class="slider-caption slider-caption-right">
 									<div>
-										<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn">Hello &amp; Welcome.</h2>
-										<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="400">Coffee drinkers make better Lovers. Everything starts with a great Coffee.</p>
+										<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn">Returning to the Lake County Fairgrounds</h2>
+										<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="400">The Ohio Celtic Festival is returning to the Lake County Fairgrounds. Eveything you love about the Ohio Celtic Feltival, only bigger.</p>
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background-image: url('celticfest/images/slider/2.jpg'); background-position: center bottom;"></div>git 
+							<div class="swiper-slide-bg" style="background-image: url('demos/restaurant/images/slider/3-Fairgrounds.jpg'); background-position: center bottom;"></div>
 						</div>
 					</div>
 
@@ -159,46 +161,37 @@
 
 			<div class="content-wrap" style="overflow: visible;">
 
-				<div class="section m-0 clearfix" style="padding: 40px 0; background: url('demos/restaurant/images/sections/4.jpg') center center no-repeat; background-size: 100% auto">
+				<div class="section m-0 clearfix" style="padding: 40px 0; background: url('demos/restaurant/images/sections/4-vendor.png') center center no-repeat; background-size: 100% auto">
 					<div class="container">
 
 						<div class="heading-block border-bottom-0 bottommargin-sm">
-							<h2 class="font-secondary color nott" style="font-size: 52px;">How We Work</h2>
+							<h2 class="font-secondary color nott" style="font-size: 52px;">Become A Vendor</h2>
 						</div>
 
 						<div class="row col-mb-50">
 							<div class="col-lg-3">
 								<div class="feature-box media-box" style="max-width: 400px;">
-									<div class="fbox-media" style="width: 70px; height: auto;">
-										<img src="demos/restaurant/images/icons/bowl.svg" alt="Image">
-									</div>
 									<div class="fbox-content px-0">
-										<h3>Food Served Hot</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas omnis nam molestias minus ipsa, placeat!</p>
+										<h3></h3>
+										<p>The Food, Drink and Special Products made available by our select group of vendors help make Ohio Celtic Festival a must-visit event for the entire family. We can’t wait to eat, drink and go shopping!</p>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-lg-3">
 								<div class="feature-box media-box" style="max-width: 400px;">
-									<div class="fbox-media" style="width: 70px; height: auto;">
-										<img src="demos/restaurant/images/icons/spoon.svg" alt="Image">
-									</div>
 									<div class="fbox-content px-0">
-										<h3>Ample Options</h3>
-										<p>Facere aliquam itaque quia recusandae, corporis fugit fugiat eaque, accusamus officiis reprehenderit.</p>
+										<h3>Merchandise Vendors</h3>
+										<p>To become a merchandise vendor send and email to vendors-merchandise@ohiocelticfest.com</p>
 									</div>
 								</div>
 							</div>
 
 							<div class="col-lg-3">
 								<div class="feature-box media-box" style="max-width: 400px;">
-									<div class="fbox-media" style="width: 70px; height: auto;">
-										<img src="demos/restaurant/images/icons/glass.svg" alt="Image">
-									</div>
 									<div class="fbox-content px-0">
-										<h3>In-House Brewery</h3>
-										<p>Velit id facilis odit aliquid laudantium. Tempore, sequi. Harum nesciunt, magni aperiam est?</p>
+										<h3>Food Vendors</h3>
+										<p>To became a food vendor send an email to vendors-food@ohiocelticfest.com</p>
 									</div>
 								</div>
 							</div>
@@ -207,11 +200,11 @@
 					</div>
 				</div>
 
-				<div class="section mb-0" style="background: #FFF url('demos/restaurant/images/sections/5.jpg') no-repeat top left / cover; padding: 60px 0; border-top: 1px solid #EEE;">
+				<div class="section mb-0" style="background: #FFF url('demos/restaurant/images/sections/5-band-crowd.png') no-repeat center left / cover; padding: 60px 0; border-top: 1px solid #EEE;">
 					<div class="container clearfix">
 						<div class="heading-block center mb-0 border-bottom-0">
-							<span class="font-primary" style="font-size: 16px; color: #888">Tasty &amp; Healthy</span>
-							<h3 class="nott font-secondary ls0" style="font-size: 60px;">Our Food Menu</h3>
+							<span class="font-primary" style="font-size: 16px; color: #888">The Very Best In Irish Entertainment</span>
+							<h3 class="nott font-secondary ls0" style="font-size: 60px;">Entertainers</h3>
 						</div>
 					</div>
 				</div>
@@ -228,133 +221,205 @@
 							</div>
 							<div class="col-lg-5" style="background-color: #FFF; padding: 0; box-shadow: -4px 1px 15px 3px rgba(0,0,0,0.07);">
 								<div id="food-menu-carousel" class="menu-carousel owl-carousel image-carousel food-menu-carousel carousel-widget customjs">
+									
+									<!-- The Elders -->
+									<div class="oc-item">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/1-elders_1.png" alt="Image of the Elters">
+										<div class="food-content clearfix">
+											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+												<div class="heading-block border-bottom-0 mb-0">
+													<h3 class="font-secondary nott">The Elders</h3>
+													<div class="food-info">Kansas City</div>
+												</div>
+											</div>
+											<p class="mb-0"><strong>THE ELDERS ARE BACK!</strong><br>“The Elders" remain one of the top Celtic-rock bands in the U-S after 24 years because of their timeless sound.    It’s their passion, great melodies, unique harmonies, unparalleled musicianship and strong song-writing that keeps them connected.</p>
+											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
+										</div>
+									</div>
 
+									<!-- Byrne & Kelly -->
 									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/1.jpg" alt="Image 1">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/2-byrne_kelley.jpg" alt="Image of Byrne and Kelley">
 										<div class="food-content clearfix">
 											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
 												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Multigrain Toast.</h3>
-													<div class="food-info">Corn, Bacon, Tomato, Cheese, Onlion</div>
+													<h3 class="font-secondary nott">Byrne &amp; Kelly</h3>
+													<div class="food-info">Ireland</div>
 												</div>
-												<div class="food-price color font-primary mt-3">&dollar;19.99</div>
 											</div>
-											<p class="mb-0">Efficiently syndicate cross functional web-readiness before business niches. Uniquely reinvent ethical testing procedures before ethical leadership skills.<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
+											<p class="mb-0">What began as Celtic Thunder's Neil Byrne and Ryan Kelly performing a series of shows together called 'Acoustic By Candlelight' back in 2012 has turned into what is now known as Byrne and Kelly.  Driven by dynamic vocal harmonies, the duo seamlessly combines genres like traditional Irish and Americana to create a fresh, Celtic folk sound that has garnered comparisons to iconic folk-rock duos like Simon & Garfunkel and The Everly Brothers.</p>
 											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
 										</div>
 									</div>
+
+									<!-- The Town Pants -->
 									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/2.jpg" alt="Image 2">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/3-Town-Pants.jpeg" alt="Image of The Town Pants">
 										<div class="food-content clearfix">
 											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
 												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Prawn Mussels Plate.</h3>
-													<div class="food-info">Prawn, Tomato, Noodles</div>
+													<h3 class="font-secondary nott">The Town Pants</h3>
+													<div class="food-info">Canada</div>
 												</div>
-												<div class="food-price color font-primary mt-3">&dollar;11.59</div>
 											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
+											<p class="mb-0">With a decades worth of headlining Roots and Celtic festivals to selling out nights at rock venues, The Town Pants own brand of Celtic-Roots-Rock spans six studio albums and two live albums, backed up with a legendary live show that’s garnered them from New York to Norway. </p>
 											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
 										</div>
 									</div>
+
+									<!-- Trish O'Brien-->
 									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/3.jpg" alt="Image 3">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/4-trish-obrien.jpg" alt="Image of Trish O'Brien">
 										<div class="food-content clearfix">
 											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
 												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Black Jumbo Burger.</h3>
-													<div class="food-info">Chicken Patty, Bean Bread</div>
+													<h3 class="font-secondary nott">Trish O'Brien</h3>
+													<div class="food-info">Canada</div>
 												</div>
-												<div class="food-price color font-primary mt-3">&dollar;8.99</div>
 											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
+											<p class="mb-0">During her career in Ireland, Trish not only won many national and provincial awards, but she also performed and hosted television shows broadcast across the entire nation.</p>
 											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
 										</div>
 									</div>
+
+									<!-- Tartan Terrors-->
 									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/4.jpg" alt="Image 4">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/5-Tartan-Terrors.jpg" alt="Image of the Tartan Terrors">
 										<div class="food-content clearfix">
 											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
 												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Fried Chicken.</h3>
-													<div class="food-info">Chicken, Olive Oil</div>
+													<h3 class="font-secondary nott">Tartan Terrors</h3>
+													<div class="food-info">Canada</div>
 												</div>
-												<div class="food-price color font-primary mt-3">&dollar;22.99</div>
 											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
+											<p class="mb-0">Tartan Terrors bring their Celtic Invasion to festivals and shows across North America, blending the energy of a rock show with humour and stepdance.<br><br>With a distinctive sound and a proud tradition of making Celtic music fun and accessible to any audience, the Terrors have played big stages across North America, including Market Square, St. John NB, sharing the stage with Scott Helman, and The Beaches, and the Celtic Music & Craft Beer Festival in Dunedin, Florida, with Eileen Ivers.</p>
 											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
 										</div>
 									</div>
+
+									<!-- Chelsea House Orchestra -->
 									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/5.jpg" alt="Image 1">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/6-Chelsea-House-Orchestra.jpg" alt="Image of the Chelsea House Orchestra">
 										<div class="food-content clearfix">
 											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
 												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Smoothie Fruit Bowl.</h3>
-													<div class="food-info">Raspberries, Strawberries, Granola, Banana</div>
+													<h3 class="font-secondary nott">Chelsea House Orchestra</h3>
+													<div class="food-info">Michigan</div>
 												</div>
-												<div class="food-price color font-primary mt-3">&dollar;19.99</div>
 											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur. Holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
+											<p class="mb-0"><strong>Celtic with a Kick! </strong>Chelsea House Orchestra (CHO) provides a varied and colorful performance repertoire with the majority of the music derived from traditional Celtic sources. However, other folk music sources are used to provide students with an eclectic musical experience.
+												The basic philosophy of the arrangements is to allow everyone in the group to enjoy Celtic music as much as possible. Consequently, the majority of the playing is melody based with very little inner harmony or separate part writing. This truly provides students a contrasting experience from their normal school orchestra.
+												All music is memorized and arrangements often evolve from rehearsals and suggestions from students. Individuals are showcased through the use of solos, duos, and special features.</p>
 											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
 										</div>
 									</div>
+
+									<!-- Damian McGinty -->
 									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/6.jpg" alt="Image 2">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/7-damon-mcginty.jpg" alt="Image 2">
 										<div class="food-content clearfix">
 											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
 												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Margarita Pizza.</h3>
-													<div class="food-info">Wheat Flour, Cheese, Tomato, Onion</div>
+													<h3 class="font-secondary nott">Damian McGinty</h3>
+													<div class="food-info">Nashville</div>
 												</div>
-												<div class="food-price color font-primary mt-3">&dollar;14.99</div>
 											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<div class="food-price color font-primary mt-3">&dollar;14.99</div>
+											<p class="mb-0">Damian McGinty is a multi-genre singer/songwriter from Derry, Northern Ireland, who now calls Nashville his home. He currently splits his time as an independent solo artist and a principal performer for the internationally renowned group Celtic Thunder, sprinkled in with occasional acting jobs and other pursuits.<br><br>In his solo work, Damian's Irish roots blend with pop, folk, adult alternative contemporary, and country influences and a lyrical storytelling style to create a sound that is both familiar and unique. Damian’s original songs range from bright summer bops to deeply intimate ballads, capturing moments that are specific yet timeless; individual yet universal.</p>
 											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
 										</div>
 									</div>
+
+									<!-- Callahan & O'Conner -->
 									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/7.jpg" alt="Image 3">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/8-Callahan-OConnor.png" alt="Image Callahan and O'Connor">
 										<div class="food-content clearfix">
 											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
 												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Macaroni Pasta.</h3>
+													<h3 class="font-secondary nott">Callahan &amp; O'Conner</h3>
+													<div class="food-info">Akron</div>
 												</div>
-												<div class="food-price color font-primary mt-3">&dollar;11.99</div>
 											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
+											<p class="mb-0">Since 1984, this high-energy Irish group from Akron, Ohio, has been entertaining audiences all over the northeastern United States. Paul Callahan, Kevin O'Connor, Jim Butke, Mike O'Connor and Ritch Underwood combine great folk songs, rebel tunes, serious ballads and humorous songs with original material that is sure to delight everyone-young and old. These talented musicians and singers enjoy what they do and it shows. Jokes, toasts and unknown surprises are interlaced through every set. Grab a glass and have a seat! The fun is just beginning!</p>
 											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
 										</div>
 									</div>
+
+									<!-- New Barleycorn-->
 									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/8.jpg" alt="Image 4">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/9-New-Barleycory.jpg" alt="Image of The New Barley Corn">
 										<div class="food-content clearfix">
 											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
 												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Chicken with Fries.</h3>
-													<div class="food-info">Chicken, Potatoes, Broccolies</div>
+													<h3 class="font-secondary nott">New Barleycorn</h3>
+													<div class="food-info">Cleveland</div>
 												</div>
-												<div class="food-price color font-primary mt-3">&dollar;33.99</div>
 											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
+											<p class="mb-0">Both Alec and John were born and raised in Ireland in counties Dublin and Down where they learned to play music at an early age. Both have performed professionally since their teenage years each has enjoyed considerable success.</p>
 											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
 										</div>
 									</div>
+
+									<!-- Brigid's Cross -->
 									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/9.jpg" alt="Image 4">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/10-Brigid-Cross.jpg" alt="Image of Brigid's Cross">
 										<div class="food-content clearfix">
 											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
 												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Chinese Noodle.</h3>
-													<div class="food-info">Noodles, Cornflower, Prawn</div>
+													<h3 class="font-secondary nott">Brigid's Cross</h3>
+													<div class="food-info">Cleveland</div>
 												</div>
-												<div class="food-price color font-primary mt-3">&dollar;7.99</div>
 											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
+											<p class="mb-0">For 25 years and counting, Paul Baker and Peggy Goonan-Baker have brought an eclectic and entertaining collection of music to the stage. Formed in 1996, Brigid's Cross has played it all: true-to-heritage traditional Celtic folk, contemporary Irish music, country, rock, alternative, and originals. Truly eclectic music, with a Celtic twist!</p>
 											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
 										</div>
 									</div>
+
+									<!-- Andrew McManus -->
+									<div class="oc-item">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/11-Andrew-McManus.jpg" alt="Image of Andrew McManus">
+										<div class="food-content clearfix">
+											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+												<div class="heading-block border-bottom-0 mb-0">
+													<h3 class="font-secondary nott">Andrew McManus</h3>
+													<div class="food-info">Cleveland</div>
+												</div>
+											</div>
+											<p class="mb-0">Andrew Mcmanus is a singer-songwriter from Armagh, Northern Ireland. Growing up at the tail-end of the Troubles near the ancient Celtic site of Emain Macha, Andrew was heavily influenced by the local myths and legends of Irish literature that were set there; the tales of Cú Chulainn, Queen Macha, and the epic saga of the Táin Bó Cúailnge. These stories deeply inspired his creativity and a love for Irish folk tunes which led him to producing artwork and music with a distinctly Celtic and ethereal quality.</p>
+											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
+										</div>
+									</div>
+
+									<!-- No Strangers Here -->
+									<div class="oc-item">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/12-No-Strangers-Here.jpg" alt="Image of No Strangers Here">
+										<div class="food-content clearfix">
+											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+												<div class="heading-block border-bottom-0 mb-0">
+													<h3 class="font-secondary nott">No Strangers Here</h3>
+													<div class="food-info">Cleveland</div>
+												</div>
+											</div>
+											<p class="mb-0">No Strangers Here is an Irish Folk Band that started in 2012. We love to play Irish/Celtic music as well as music from the 60’s, 70’s and today. We grew up listening and playing to some of the most popular music of our time. Over the years, all members of the band have visited Ireland while bringing Celtic music back to the states for all to enjoy.</p>
+											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
+										</div>
+									</div>
+
+									<!-- Mossy Moran -->
+									<div class="oc-item">
+										<img class="topmargin-sm" src="demos/restaurant/images/items/food/13-Mossy.jpg" alt="Image of Mossy Moran">
+										<div class="food-content clearfix">
+											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+												<div class="heading-block border-bottom-0 mb-0">
+													<h3 class="font-secondary nott">Mossy Moran</h3>
+													<div class="food-info">Cleveland</div>
+												</div>
+											</div>
+											<p class="mb-0">"You just can't believe that he is just one voice and a guitar!" is often heard by audiences on hearing Mossy perform for their first time. His deep baritone voice coupled with a thundering velvet hand on his guitars cause people to stop and listen. His Irish wit and stage presence are infectious. Derek Warfield of the Wolfe Tones commented that Mossy is one of the finest Irish solo acts he's seen in years. </p>
+											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
+										</div>
+									</div>
+
+									
 								</div>
 							</div>
 						</div>
@@ -368,11 +433,11 @@
 							<div class="col-sm-6 col-lg-4">
 								<div class="feature-box media-box">
 									<div class="fbox-media">
-										<a href="demos/restaurant/reservation.html" ><img style="border-radius: 2px;" src="demos/restaurant/images/featured/1.jpg" alt="Why choose Us?"></a>
+										<a href="demos/restaurant/reservation.html" ><img style="border-radius: 2px;" src="demos/restaurant/images/featured/1-Children-Fun.jpg" alt="Children's Area"></a>
 									</div>
 									<div class="fbox-content px-0">
-										<h3>Beautiful Location.<span class="subtitle ls1" style="color:#BBB">Food Tastes Better when you are in Good Location.</span></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus eaque perspiciatis mollitia.</p>
+										<h3>Children's Area<span class="subtitle ls1" style="color:#BBB">Fun for all ages</span></h3>
+										<p>Bring the kiddos to see live shows, make art, jump around in our bounce house or vist our petting zoo.</p>
 									</div>
 								</div>
 							</div>
@@ -380,11 +445,11 @@
 							<div class="col-sm-6 col-lg-4">
 								<div class="feature-box media-box">
 									<div class="fbox-media">
-										<a href="demos/restaurant/gallery.html" ><img style="border-radius: 2px;" src="demos/restaurant/images/featured/2.jpg" alt="Effective Planning"></a>
+										<a href="demos/restaurant/gallery.html" ><img style="border-radius: 2px;" src="demos/restaurant/images/featured/2-Coffee-House.jpg" alt="Irish Coffee House"></a>
 									</div>
 									<div class="fbox-content px-0">
-										<h3>Feel the Taste.<span class="subtitle ls1" style="color:#BBB">Nothing Brings people together like Good Food.</span></h3>
-										<p>Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse.</p>
+										<h3>Irish Coffee House<span class="subtitle ls1" style="color:#BBB">Nothing Brings people together like Good Food.</span></h3>
+										<p>Come enjoy Irish Soda Bread, scones, pastries as well as our famous Irish Coffee, made with your choice of Jameson Irish Whiskey or Five Farms Irish Cream.</p>
 									</div>
 								</div>
 							</div>
@@ -392,11 +457,11 @@
 							<div class="col-sm-6 col-lg-4">
 								<div class="feature-box media-box">
 									<div class="fbox-media">
-										<a href="demos/restaurant/about-us.html" ><img style="border-radius: 2px;" src="demos/restaurant/images/featured/3.jpg" alt="Why choose Us?"></a>
+										<a href="demos/restaurant/about-us.html" ><img style="border-radius: 2px;" src="demos/restaurant/images/featured/3-Jameson.jpg" alt="Bottles of Jameson Whiskey"></a>
 									</div>
 									<div class="fbox-content px-0">
-										<h3>Delicious Desserts.<span class="subtitle ls1" style="color:#BBB">The Best things in life are Sweet.</span></h3>
-										<p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum quo. , labore totam. Accusamus perspiciatis asperiores.</p>
+										<h3>Jameson Irish Whiskey Tasting<span class="subtitle ls1" style="color:#BBB">Sample the best</span></h3>
+										<p>Experience a whiskey tasting featuring four different brands of Jameson Irish Whiskey.</p>
 									</div>
 								</div>
 							</div>
@@ -404,7 +469,7 @@
 
 					</div>
 				</div>
-
+				<!-- Hiding Deserts - going to use for pipe bands and dancers 
 				<div class="section mb-0" style="background: #fee749 url('demos/restaurant/images/sections/4.jpg') no-repeat center right; background-size: cover; padding: 60px 0;">
 					<div class="heading-block center mb-0 border-bottom-0">
 						<span class="font-primary ls1" style="font-size: 14px; color: #AAA">Sweet &amp; Sexy</span>
@@ -556,27 +621,9 @@
 
 					</div>
 				</div>
-
+			-->
+			<!-- Hiding Chef Section - Using for Schedule 
 				<div class="clear"></div>
-
-				<div class="section bg-transparent">
-					<div class="d-none d-lg-block" style="background: #FFF url('demos/restaurant/images/sections/3.jpg') no-repeat center center / cover; height: 100%;position: absolute; top: 0; left: 0; width: 100%"></div>
-					<div class="container clearfix">
-
-						<div class="heading-block border-bottom-0">
-							<span class="font-primary ls1" style="font-size: 14px; color: #AAA">Services</span>
-							<h3 class="nott font-secondary ls0" style="font-size: 60px; line-height: 1.3;">What We Do</h3>
-						</div>
-						<div class="row clearfix">
-							<div class="col-lg-6 col-md-6 col-12"><img src="demos/restaurant/images/sections/1.jpg" alt="Image"></div>
-							<div class="col-lg-4 col-md-6 col-12">
-								<a href="demos/restaurant/about-us.html" class="button button-border button-large button-black button-dark button-rounded nott ls0 font-primary service-button">Our Service</a>
-								<img src="demos/restaurant/images/sections/2.jpg" alt="Image" class="d-none d-md-block" style="margin: 0 0 0 -80px;">
-							</div>
-						</div>
-
-					</div>
-				</div>
 
 				<div class="section mb-0" style="padding: 80px 0; background: #F5F5F5 url('demos/restaurant/images/food-pattern.png') repeat center center;">
 					<div class="container clearfix">
@@ -651,78 +698,7 @@
 						</div>
 					</div>
 				</div>
-
-				<div class="clear"></div>
-
-				<div style="background: #FFF url('demos/restaurant/images/sections/7.jpg') no-repeat top right; background-size: 100% auto; padding-top: 50px">
-					<div class="container clearfix">
-
-						<div class="heading-block center border-bottom-0">
-							<span class="font-primary ls1" style="font-size: 14px; color: #AAA">Our Latest News</span>
-							<h3 class="nott font-secondary ls0" style="font-size: 60px; line-height: 1.2;">News Feed</h3>
-						</div>
-
-						<div class="row posts-md col-mb-30 mb-0">
-
-							<div class="col-lg-4 col-md-6">
-								<div class="entry">
-									<div class="entry-image mb-0">
-										<a href="demos/restaurant/images/blogs/1.jpg" data-lightbox="image"><img src="demos/restaurant/images/blogs/1.jpg" alt="Image 1"></a>
-									</div>
-									<div class="entry-title mt-0 p-4 title-xs nott">
-										<div class="entry-meta mt-0 mb-2">
-											<ul>
-												<li><a href="#">08th Apr 2021</a></li>
-												<li><a href="#">Video</a></li>
-											</ul>
-										</div>
-
-										<h2 class="mb-0"><a href="demos/restaurant/blog.html">Make Ahead Super Green Vegan Quinoa Sandwich.</a></h2>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-4 col-md-6">
-								<div class="entry">
-									<div class="entry-image mb-0">
-										<a href="demos/restaurant/images/blogs/2.jpg" data-lightbox="image"><img src="demos/restaurant/images/blogs/2.jpg" alt="Image 2"></a>
-									</div>
-									<div class="entry-title mt-0 p-4 title-xs nott">
-										<div class="entry-meta mt-0 mb-2">
-											<ul>
-												<li><a href="#">21th Mar 2021</a></li>
-												<li><a href="#">Book</a></li>
-											</ul>
-										</div>
-
-										<h2 class="mb-0"><a href="demos/restaurant/blog.html">We Delivered Heart Shape Cornbread Waffles.</a></h2>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-4 col-md-6">
-								<div class="entry">
-									<div class="entry-image mb-0">
-										<a href="demos/restaurant/images/blogs/3.jpg" data-lightbox="image"><img src="demos/restaurant/images/blogs/3.jpg" alt="Image 3"></a>
-									</div>
-									<div class="entry-title mt-0 p-4 title-xs nott">
-										<div class="entry-meta mt-0 mb-2">
-											<ul>
-												<li><a href="#">10th Feb 2021</a></li>
-												<li><a href="#">Recipe</a></li>
-											</ul>
-										</div>
-
-										<h2 class="mb-0"><a href="demos/restaurant/blog.html">Top Delicious Recipes from world's Best Chefs.</a></h2>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-
+			-->
 				<div class="line clear"></div>
 
 				<div class="container section-contact topmargin-lg clearfix">
@@ -730,22 +706,37 @@
 
 						<div class="col-lg-3 col-md-6 bottommargin-sm center">
 							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-map"></i>
-							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Contact</h3>
-							<span class="font-primary">795 Folsom Ave, Suite 600<br>San Francisco, CA 94107</span>
+							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Ticket Prices</h3>
+							<span class="font-primary"><strong>Pre sale </strong>&dollar;9 <br>
+								<em>must be purchased by August 1</em><br>
+								<strong>Friday </strong><br>
+									&dollar;10 <em>everyone</em><br>
+								<strong>Saturday &amp; Sunday </strong><br>
+									&dollar;15 general admission<br>
+									&dollar;10 seniors 65+ &amp; students w/ID<br>
+									Children 12 and under Free<br>
+									<br>
+									<strong><em>Three day pass &dollar;25 must be purchased by August 10</em></strong>
+							</span>
 						</div>
 
 						<div class="col-lg-3 col-md-6 bottommargin-sm center">
 							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clock"></i>
-							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Opening Time</h3>
-							<span class="font-primary">Sun - Thu | 07:00 - 23:00 Hours<br>
-							Fri - Sat | 08:00 - 01:00 Hours</span>
+							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Gate Opening Time</h3>
+							<span class="font-primary">Friday | 4:30PM - 10:00PM<br>
+							Saturday | 12:30PM - 10:00PM<br>
+							Sunday | 10:00AM - 7:00PM<br>
+							Sunday Mass | 10:30AM</span>
+							
 						</div>
 
 						<div class="col-lg-3 col-md-6 bottommargin-sm center">
 							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clipboard"></i>
-							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Reservation</h3>
-							<span class="font-primary"><strong>Mobile: </strong>+62-111-222-333<br>
-							<strong>Fax: </strong>(+62)-11-4752-1433</span>
+							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Location</h3>
+							<span class="font-primary"><strong>Lake County Fairgrounds </strong><br>
+							address line 1<br>
+							address line 2<br>
+							<strong>Phone: </strong>(+62)-11-4752-1433</span>
 						</div>
 
 						<div class="col-lg-3 col-md-6 bottommargin-sm center">
