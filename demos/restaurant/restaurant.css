@@ -62,17 +62,18 @@
 .food-menu .item-thumb .owl-dot:nth-of-type(11) span { background-image: url('images/items/food/thumbs/11-Andrew-McManus.jpg')}
 .food-menu .item-thumb .owl-dot:nth-of-type(12) span { background-image: url('images/items/food/thumbs/12-No-Strangers-Here.jpg')}
 .food-menu .item-thumb .owl-dot:nth-of-type(13) span { background-image: url('images/items/food/thumbs/13-Mossy.jpg')}
+.food-menu .item-thumb .owl-dot:nth-of-type(14) span { background-image: url('images/items/food/thumbs/14-ClevelandFFPD.jpg')}
 
 
-.dessert-menu .item-thumb .owl-dot:nth-of-type(1) span { background-image: url('images/items/desserts/thumbs/1.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(2) span { background-image: url('images/items/desserts/thumbs/2.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(3) span { background-image: url('images/items/desserts/thumbs/3.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(4) span { background-image: url('images/items/desserts/thumbs/4.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(5) span { background-image: url('images/items/desserts/thumbs/5.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(6) span { background-image: url('images/items/desserts/thumbs/6.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(7) span { background-image: url('images/items/desserts/thumbs/7.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(8) span { background-image: url('images/items/desserts/thumbs/8.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(9) span { background-image: url('images/items/desserts/thumbs/9.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(1) span { background-image: url('images/items/desserts/thumbs/1-ClevelandFFPD.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(2) span { background-image: url('images/items/desserts/thumbs/2-WSIAPD.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(3) span { background-image: url('images/items/desserts/thumbs/3-ESIAPD.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(4) span { background-image: url('images/items/desserts/thumbs/4-Red-Hackle-PD.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(5) span { background-image: url('images/items/desserts/thumbs/5-Jack-McDonough-FD.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(6) span { background-image: url('images/items/desserts/thumbs/6-Murphy-School.png'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(7) span { background-image: url('images/items/desserts/thumbs/7-Leneghan-School.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(8) span { background-image: url('images/items/desserts/thumbs/8-Brady-Campbell-School.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(9) span { background-image: url('images/items/desserts/thumbs/9-Egan-Irish-Dance.jpg'); }
 
 .menu-carousel .heading-block h3 { font-size: 34px; }
 

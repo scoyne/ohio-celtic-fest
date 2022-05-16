@@ -10163,7 +10163,7 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .media-box .fbox-media { margin: 0 0 1.5rem; }
-
+/*
 .media-box .fbox-media,
 .media-box .fbox-media a,
 .media-box .fbox-media img {
@@ -10171,6 +10171,16 @@ body:not(.device-touch) .button.button-full strong {
 	display: block;
 	width: 100%;
 	height: auto;
+}
+*/
+
+.media-box .fbox-media,
+.media-box .fbox-media a,
+.media-box .fbox-media img {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 275px;
 }
 
 .media-box .fbox-media iframe { display: block; }
