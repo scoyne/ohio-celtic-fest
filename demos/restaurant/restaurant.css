@@ -49,31 +49,29 @@
 .item-thumb .owl-dot.active span { opacity: .7; }
 
 
-.food-menu .item-thumb .owl-dot:nth-of-type(1) span { background-image: url('images/items/food/thumbs/1-elders_1.png'); }
-.food-menu .item-thumb .owl-dot:nth-of-type(2) span { background-image: url('images/items/food/thumbs/2-byrne_kelley.jpg'); }
-.food-menu .item-thumb .owl-dot:nth-of-type(3) span { background-image: url('images/items/food/thumbs/3-Town-Pants.jpg'); }
-.food-menu .item-thumb .owl-dot:nth-of-type(4) span { background-image: url('images/items/food/thumbs/4-trish-obrien.jpg'); }
-.food-menu .item-thumb .owl-dot:nth-of-type(5) span { background-image: url('images/items/food/thumbs/5-Tartan-Terrors.jpg'); }
-.food-menu .item-thumb .owl-dot:nth-of-type(6) span { background-image: url('images/items/food/thumbs/6-Chelsea-House-Orchestra.jpg'); }
-.food-menu .item-thumb .owl-dot:nth-of-type(7) span { background-image: url('images/items/food/thumbs/7-damon-mcginty.jpg'); }
-.food-menu .item-thumb .owl-dot:nth-of-type(8) span { background-image: url('images/items/food/thumbs/8-Callahan-OConnor.jpg'); }
-.food-menu .item-thumb .owl-dot:nth-of-type(9) span { background-image: url('images/items/food/thumbs/9-New-Barleycory.jpg'); }
-.food-menu .item-thumb .owl-dot:nth-of-type(10) span { background-image: url('images/items/food/thumbs/10-Brigid-Cross.jpg'); }
-.food-menu .item-thumb .owl-dot:nth-of-type(11) span { background-image: url('images/items/food/thumbs/11-Andrew-McManus.jpg')}
-.food-menu .item-thumb .owl-dot:nth-of-type(12) span { background-image: url('images/items/food/thumbs/12-No-Strangers-Here.jpg')}
-.food-menu .item-thumb .owl-dot:nth-of-type(13) span { background-image: url('images/items/food/thumbs/13-Mossy.jpg')}
-.food-menu .item-thumb .owl-dot:nth-of-type(14) span { background-image: url('images/items/food/thumbs/14-ClevelandFFPD.jpg')}
+.food-menu .item-thumb .owl-dot:nth-of-type(1) span { background-image: url('images/items/food/thumbs/1-elders-thumb.png'); }
+.food-menu .item-thumb .owl-dot:nth-of-type(2) span { background-image: url('images/items/food/thumbs/2-byrne_kelley-thumb.jpg'); }
+.food-menu .item-thumb .owl-dot:nth-of-type(3) span { background-image: url('images/items/food/thumbs/3-Town-Pants-thumb.jpg'); }
+.food-menu .item-thumb .owl-dot:nth-of-type(4) span { background-image: url('images/items/food/thumbs/4-trish-obrien-thumb.jpg'); }
+.food-menu .item-thumb .owl-dot:nth-of-type(5) span { background-image: url('images/items/food/thumbs/5-Tartan-Terrors-thumb.jpg'); }
+.food-menu .item-thumb .owl-dot:nth-of-type(6) span { background-image: url('images/items/food/thumbs/6-Chelsea-House-Orchestra-thumb.jpg'); }
+.food-menu .item-thumb .owl-dot:nth-of-type(7) span { background-image: url('images/items/food/thumbs/7-damon-mcginty-thumb.jpg'); }
+.food-menu .item-thumb .owl-dot:nth-of-type(8) span { background-image: url('images/items/food/thumbs/8-Callahan-OConnor-thumb.jpg'); }
+.food-menu .item-thumb .owl-dot:nth-of-type(9) span { background-image: url('images/items/food/thumbs/9-New-Barleycory-thumb.jpg'); }
+.food-menu .item-thumb .owl-dot:nth-of-type(10) span { background-image: url('images/items/food/thumbs/10-Brigid-Cross-thumb.jpg'); }
+.food-menu .item-thumb .owl-dot:nth-of-type(11) span { background-image: url('images/items/food/thumbs/11-Andrew-McManus-thumb.jpg')}
+.food-menu .item-thumb .owl-dot:nth-of-type(12) span { background-image: url('images/items/food/thumbs/12-No-Strangers-Here-thumb.jpg')}
+.food-menu .item-thumb .owl-dot:nth-of-type(13) span { background-image: url('images/items/food/thumbs/13-Mossy-thumb.jpg')}
 
-
-.dessert-menu .item-thumb .owl-dot:nth-of-type(1) span { background-image: url('images/items/desserts/thumbs/1-ClevelandFFPD.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(2) span { background-image: url('images/items/desserts/thumbs/2-WSIAPD.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(3) span { background-image: url('images/items/desserts/thumbs/3-ESIAPD.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(4) span { background-image: url('images/items/desserts/thumbs/4-Red-Hackle-PD.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(5) span { background-image: url('images/items/desserts/thumbs/5-Jack-McDonough-FD.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(6) span { background-image: url('images/items/desserts/thumbs/6-Murphy-School.png'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(7) span { background-image: url('images/items/desserts/thumbs/7-Leneghan-School.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(8) span { background-image: url('images/items/desserts/thumbs/8-Brady-Campbell-School.jpg'); }
-.dessert-menu .item-thumb .owl-dot:nth-of-type(9) span { background-image: url('images/items/desserts/thumbs/9-Egan-Irish-Dance.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(1) span { background-image: url('images/items/desserts/1-ClevelandFFPD.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(2) span { background-image: url('images/items/desserts/2-WSIAPD.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(3) span { background-image: url('images/items/desserts/3-ESIAPD.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(4) span { background-image: url('images/items/desserts/4-Red-Hackle-PD.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(5) span { background-image: url('images/items/desserts/5-Jack-McDonough-FD.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(6) span { background-image: url('images/items/desserts/6-Murphy-School.png'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(7) span { background-image: url('images/items/desserts/7-Leneghan-School.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(8) span { background-image: url('images/items/desserts/8-Brady-Campbell-School.jpg'); }
+.dessert-menu .item-thumb .owl-dot:nth-of-type(9) span { background-image: url('images/items/desserts/9-Egan-Irish-Dance.jpg'); }
 
 .menu-carousel .heading-block h3 { font-size: 34px; }
 
